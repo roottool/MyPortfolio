@@ -1,0 +1,22 @@
+.works-page__title {
+    font-size: 3.5rem;
+    margin-top: 10vh;
+}
+
+.works-page__container {
+    max-width: 1200px;
+    margin: 5vh auto;
+}
+
+.works-page__card {
+    max-width: 400px;
+    height: 300px;
+    margin-bottom: 30px;
+}
+
+.works-page__source-link {
+    position: absolute;
+    bottom: 0;
+    left: 35%;
+    margin: 20px 0;
+}
