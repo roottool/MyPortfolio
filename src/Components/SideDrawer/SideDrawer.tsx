@@ -27,13 +27,13 @@ class SideDrawer extends React.Component<IProps, {}> {
                     <p className="side-drawer__title">Menu</p>
                 </div>
                 <ul>
-                    <Link to="/about">
+                    <Link to="/MyPortfolio/about">
                         <li onClick={this.clickHandler}>About</li>
                     </Link>
-                    <Link to="/works">
+                    <Link to="/MyPortfolio/works">
                         <li onClick={this.clickHandler}>Works</li>
                     </Link>
-                    <Link to="/skills">
+                    <Link to="/MyPortfolio/skills">
                         <li onClick={this.clickHandler}>Skills</li>
                     </Link>
                 </ul>

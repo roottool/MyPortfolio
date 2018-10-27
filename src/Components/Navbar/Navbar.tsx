@@ -23,18 +23,18 @@ class Navbar extends React.Component<IProps, {}> {
                         <DrawerToggleButton clickHandler={this.clickHandler} />
                     </div>
                     <div>
-                        <Link to="/" className="navbar__title">roottool's portfolio</Link>
+                        <Link to="/MyPortfolio" className="navbar__title">roottool's portfolio</Link>
                     </div>
                     <div className="spacer" style={{flex: 1}} />
                     <div className="navbar__navigation-items">
                         <ul>
-                            <Link to="/about">
+                            <Link to="/MyPortfolio/about">
                                 <li>about</li>
                             </Link>
-                            <Link to="/works">
+                            <Link to="/MyPortfolio/works">
                                 <li>Works</li>
                             </Link>
-                            <Link to="/skills">
+                            <Link to="/MyPortfolio/skills">
                                 <li>Skills</li>
                             </Link>
                         </ul>
