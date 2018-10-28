@@ -22,18 +22,14 @@ class App extends React.Component<{}, ISideDrawerState> {
       isOpen: false,
     };
 
-    document.title = "roottool's Portfolio";
-
     this.drawToggleClickHandler = this.drawToggleClickHandler.bind(this);
     this.backdropClickHandler = this.backdropClickHandler.bind(this);
   };
 
   public render() {
-    // let sideDrawer;
     let backDrop;
 
     if (this.state.isOpen) {
-      // sideDrawer = <SideDrawer />;
       backDrop = <Backdrop backdropClickHandler={this.backdropClickHandler} />;
     }
 
